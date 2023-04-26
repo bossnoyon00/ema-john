@@ -16,7 +16,7 @@ const Product = (props) => {
                 <h6 className='product-name'>{name}</h6>
                 <p>Price: ${price}</p>
                 <p>Manufacturer: {seller}</p>
-                <p>Rating: {ratings} Stars</p>
+                <p>Ratings: {ratings} Stars</p>
             </div>
             <button onClick={() => handleAddToCart(props.product)} className='btn-cart'>
                 Add to Cart
